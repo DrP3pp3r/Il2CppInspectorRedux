@@ -10,6 +10,7 @@
     <Product>Il2CppInspectorRedux Command-Line Edition</Product>
     <PackageId>Il2CppInspectorRedux.CLI</PackageId>
     <AssemblyName>Il2CppInspector</AssemblyName>
+    <TargetFramework>net9.0</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

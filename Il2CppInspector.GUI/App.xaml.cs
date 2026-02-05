@@ -139,7 +139,7 @@ namespace Il2CppInspectorGUI
 
             // Arrange plugins
             var loadedPlugins = PluginManager.AsInstance.ManagedPlugins;
-            foreach (var savedState in savedPluginState.Reverse()) {
+            foreach (var savedState in savedPluginState.AsEnumerable().Reverse()) {
                 if (loadedPlugins.FirstOrDefault(p => p.Plugin.Id == savedState.Plugin.Id) is ManagedPlugin managedPlugin) {
 
                     // Re-order to match saved order

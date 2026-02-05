@@ -13,6 +13,7 @@
     <PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/LukeFZ/Il2CppInspectorRedux</RepositoryUrl>
     <PackageTags>IL2CPP;Unity;Reverse Engineering;Metadata</PackageTags>
+    <TargetFramework>net9.0</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
